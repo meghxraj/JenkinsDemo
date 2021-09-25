@@ -2,7 +2,10 @@ pipleline{
   agent any
   stages{
     stage("build"){
-      steps{ 
+      steps{
+        script{
+        
+        }
         echo "running from JenkinsFile in GitHub"
        }
     }
